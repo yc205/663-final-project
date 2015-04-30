@@ -1,9 +1,0 @@
-#This Makefile is used to generate the final PDF
-
-Yu_Chen_Final_Project.pdf: Yu_Chen_Final_Project.ipynb
-	ipython nbconvert —to latex —post PDF Yu_Chen_Final_Project.ipynb
-
-.PHONY: clean
-
-clean:
-	rm -f Yu_Chen_Final_Project.pdf
