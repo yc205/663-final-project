@@ -1,7 +1,7 @@
 #This Makefile is used to generate the final PDF
 
 submit.pdf: submit.ipynb
-	ipython nbconvert —to latex —post PDF submit.ipynb
+	ipython nbconvert —to latex —-post PDF submit.ipynb
 
 .PHONY: clean
 
