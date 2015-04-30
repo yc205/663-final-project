@@ -5,4 +5,4 @@ Yu_Chen_Project.pdf: submit.ipynb
 .PHONY: clean
 
 clean:
-rm -f Yu_Chen_Project.pdf
+	rm -f Yu_Chen_Project.pdf
