@@ -1,4 +1,4 @@
-report.pdf:untitled.txt
+untitled.pdf:untitled.txt
 	pdflatex report
 
 untitled.txt:
@@ -7,4 +7,4 @@ untitled.txt:
 .PHONY: clean
 all:report.pdf
 clean:
-	rm -f submit.pdf
+	rm -f untitled.pdf
