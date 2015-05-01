@@ -1,5 +1,6 @@
-submit.pdf: submit.ipynb
-	ipython nbconvert --to latex --post PDF submit.ipynb
+submit.pdf: submit.py
+	ipython nbconvert --to latex --post PDF submit.py
+
 
 .PHONY: clean
 
