@@ -1,8 +1,10 @@
-submit.pdf: submit.py
-	ipython nbconvert --to latex --post PDF submit.py
+report.pdf:submit.py
+	pdflatex report
 
+submit.py:
+	python submit.py
 
 .PHONY: clean
-
+all:report.pdf
 clean:
 	rm -f submit.pdf
