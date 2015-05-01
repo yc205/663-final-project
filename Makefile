@@ -1,7 +1,7 @@
-report.pdf:submit.py
+report.pdf:untitled.txt
 	pdflatex report
 
-submit.py:
+untitled.txt:
 	python submit.py
 
 .PHONY: clean
